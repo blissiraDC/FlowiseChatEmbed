@@ -194,9 +194,9 @@ export const BotBubble = (props: Props) => {
         </Show>
         <div class="flex flex-col justify-start">
           {props.showAgentMessages && props.message.agentReasoning && (
-            <details ref={botDetailsEl} class="mb-2 px-4 py-2 ml-2 chatbot-host-bubble rounded-[6px]">
+            <details ref={botDetailsEl} class="mb-2 px-4 py-2 ml-2 chatbot-host-bubble1 rounded-[6px]">
               <summary class="cursor-pointer">
-                <span class="italic">Agent Messages</span>
+                <span class="italic">Team Member Messages</span>
               </summary>
               <br />
               <For each={props.message.agentReasoning}>
