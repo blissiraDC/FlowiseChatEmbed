@@ -26,8 +26,8 @@ type Props = {
   handleActionClick: (label: string, action: IAction | undefined | null) => void;
 };
 
-const defaultBackgroundColor = '#f7f8ff';
-const defaultTextColor = '#303235';
+const defaultBackgroundColor = '#020B28';
+const defaultTextColor = '#ffffff';
 const defaultFontSize = 16;
 const defaultFeedbackColor = '#3B81F6';
 
@@ -208,7 +208,7 @@ export const BotBubble = (props: Props) => {
                     <AgentReasoningBubble
                       agentName={agent.agentName ?? ''}
                       agentMessage={msgContent}
-                      backgroundColor={props.backgroundColor}
+                      backgroundColor='#020B28'
                       textColor={props.textColor}
                       fontSize={props.fontSize}
                     />
