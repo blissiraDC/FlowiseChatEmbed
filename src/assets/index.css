@@ -193,13 +193,19 @@ textarea {
 
 .chatbot-button.selectable {
   color: var(--chatbot-host-bubble-color);
-  background-color: #f7f8ff;
+  background-color: #020B28;
   border: 1px solid #0042da;
 }
 
 .chatbot-host-bubble {
   color: var(--chatbot-host-bubble-color);
-  background-color: #f7f8ff;
+  background-color: #020B28;
+}
+
+.chatbot-button.selectable,
+.chatbot-host-bubble {
+  background-color:#020B28;
+  color:var(--chatbot-host-bubble-color)
 }
 
 .chatbot-host-bubble > .bubble-typing {
