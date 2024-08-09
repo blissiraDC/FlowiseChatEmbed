@@ -208,7 +208,7 @@ export const BotBubble = (props: Props) => {
                     <AgentReasoningBubble
                       agentName={agent.agentName ?? ''}
                       agentMessage={msgContent}
-                      backgroundColor='#020B28'
+                      backgroundColor="#020B28"
                       textColor={props.textColor}
                       fontSize={props.fontSize}
                     />

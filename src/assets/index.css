@@ -202,6 +202,11 @@ textarea {
   background-color: #020B28;
 }
 
+.chatbot-host-bubble1 {
+  color: var(--chatbot-host-bubble-color);
+  background-color: #020B28;
+}
+
 .chatbot-button.selectable,
 .chatbot-host-bubble {
   background-color:#020B28;
