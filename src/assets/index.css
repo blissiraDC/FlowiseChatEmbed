@@ -471,3 +471,91 @@ button {
   font-size: var(--tooltip-font-size, 12px);
   transition: opacity 0.3s ease-in-out;
 }
+
+.border-\[\#eeeeee\] {
+  --tw-border-opacity:1;
+  border-color:rgb(51, 54, 58)!important;
+}
+
+.chatbot-host-bubble1 {
+  background-color:#01041A !important;
+  color:#57ffb8 !important;
+}
+
+.chatbot-host-bubble2 {
+  background-color:#262730 !important;
+  color:#57ffff !important;
+}
+
+.chatbot-host-bubble5 {
+  background-color:#f1f1f2 !important;
+  color:#111111 !important;
+}
+
+.chatbot-host-bubble6 {
+  background-color:#202324 !important;
+  color:#eaecf0 !important;
+}
+
+.chatbot-host-bubble7 {
+  background-color:#0c0c35!important;
+  color:#eaecf0 !important;
+}
+
+.chatbot-host-bubble8 {
+  background-color:#253549 !important;
+  color:#eaecf0 !important;
+}
+
+.chatbot-host-bubble9 {
+  background-color:#1a2259 !important;
+  color:#eaecf0 !important;
+}
+
+.title1{
+  background-color:#0b2746 !important;
+}
+
+.title{
+  background-color:#0b2746 !important;
+}
+
+.Showtitle{
+  background-color:#0b2746 !important;
+}
+
+.prose :where(strong):not(:where([class~=not-prose],
+[class~=not-prose] *)) {
+  color:#abe7ff !important;
+  font-weight:600
+}
+
+.prose :where(h1):not(:where([class~=not-prose],
+[class~=not-prose] *)) {
+  color:#c0eaff !important;
+  font-size:2.25em;
+  font-weight:800;
+  line-height:1.1111111;
+  margin-bottom:.8888889em;
+  margin-top:0
+}
+
+.prose :where(h4):not(:where([class~=not-prose],
+[class~=not-prose] *)) {
+  color:#64ccff !important;
+  font-weight:600;
+  line-height:1.5;
+  margin-bottom:.5em;
+  margin-top:1.5em
+}
+
+.prose :where(h3):not(:where([class~=not-prose],
+[class~=not-prose] *)) {
+  color:#e5e8ea !important; 
+  font-size:2.3em;
+  font-weight:600;
+  line-height:1.6;
+  margin-bottom:.6em;
+  margin-top:1.6em
+}
+
